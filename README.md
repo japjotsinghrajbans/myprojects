@@ -1,2 +1,2 @@
 # myprojects
-This repository contains my personal projects. For more details, please refer to the "README".
+Welcome! This repository contains my Python projects. Each of my projects has documentation of the highest standard, including a header containing my name, the date the project was completed, and the project title, as well as IPO (Input, Processing, Output) comments, docstrings, and single-line comments. My projects apply to real-life situations & scenarios, especially if you have very limited or no internet access. Feel free to try & test them out!
