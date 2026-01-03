@@ -1,0 +1,54 @@
+<!-- 
+author: Japjot Singh Rajbans
+date: October 29, 2025
+Sound design testing project
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <img src="in logo.png" alt="!n Logo">
+</head>
+<body>
+    <h1>Our sound designs. As amazing as ever.</h1>
+    <audio id="InNotificationSound" src="windows-notify-system-generic.mp3"></audio>
+    <audio id="InLockSound" src="windows-user-account-control.mp3"></audio>
+    <audio id="InMessageSound" src="windows-notify-messaging.mp3"></audio>
+    <audio id="InEmailSound" src="windows-notify-email.mp3"></audio>
+    <button onclick="playSound()">Email notification sound</button>
+    <button onclick="playSound2()">Message notification sound</button>
+    <button onclick="playSound3()">Unclassified notification sound</button>
+    <button onclick="playSound4()">Lock sound</button>
+
+    <script>
+        let audioPlayer = document.getElementById('InEmailSound');
+        let audioPlayer2 = document.getElementById('InMessageSound');
+        let audioPlayer3 = document.getElementById('InNotificationSound');
+        let audioPlayer4 = document.getElementById('InLockSound');
+
+        // Email notification sound
+        function playSound() {
+            audioPlayer.load();
+            audioPlayer.play();
+        }
+        
+        // Message notification sound
+        function playSound2() {
+            audioPlayer2.load();
+            audioPlayer2.play();
+        }
+
+        // Unclassified notification sound
+        function playSound3() {
+            audioPlayer3.load();
+            audioPlayer3.play();
+        }
+
+        // Lock sound
+        function playSound4() {
+            audioPlayer4.load();
+            audioPlayer4.play();
+        }
+    </script>
+</body>
+</html>
