@@ -297,7 +297,8 @@ def display_menu() -> str:
         "[bold bright_green]4[/] --> [#00ff00]C[/][#0eff0e]a[/][#1cff1c]l[/][#2aff2a]c[/][#39ff39]u[/][#47ff47]l[/][#55ff55]a[/][#63ff63]t[/][#71ff71]e[/][#80ff80] [/][#8eff8e]y[/][#9cff9c]o[/][#aaffaa]u[/][#b8ffb8]r[/][#c6ffc6] [/][#d4ffd4]B[/][#e3ffe3]M[/][#f1fff1]I[/][#ffffff]![/]\n"
         "[bold #305cde]5[/] --> [#305cde]G[/][#4069e1]e[/][#5075e3]t[/][#6082e6] [/][#708ee8]m[/][#809beb]e[/][#90a7ed]a[/][#9fb4f0]l[/][#afc0f2] [/][#bfcdf5]p[/][#cfd9f7]l[/][#dfe6fa]a[/][#eff2fc]n[/][#ffffff]s[/]\n"
         "[bold #6e00ff]6[/] --> [#6e00ff]S[/][#7a15ff]t[/][#862aff]a[/][#9240ff]r[/][#9e55ff]t[/][#aa6aff] [/][#b680ff]w[/][#c395ff]o[/][#cfaaff]r[/][#dbbfff]k[/][#e7d4ff]o[/][#f3eaff]u[/][#ffffff]t[/]\n"
-        "[bold #8a00c4]7[/] --> [#8a00c4]E[/][#b155d8]x[/][#d8aaeb]i[/][#ffffff]t[/]",
+        "[bold #00ffff]7[/] --> [#00ffff]O[/][#15ffff]p[/][#2affff]e[/][#40ffff]n[/][#55ffff] [/][#6affff]S[/][#80ffff]t[/][#95ffff]o[/][#aaffff]p[/][#bfffff]w[/][#d4ffff]a[/][#e0ffff]t[/][#efffff]c[/][#ffffff]h[/]\n"
+        "[bold #8a00c4]8[/] --> [#8a00c4]E[/][#b155d8]x[/][#d8aaeb]i[/][#ffffff]t[/]",
         title="[bold dark_blue]Main Menu[/]",
         border_style="bright_blue",
         box=box.ROUNDED,
