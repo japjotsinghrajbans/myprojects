@@ -1110,7 +1110,7 @@ def main() -> None:
                 if use in ("y", "yes", "yeah", "yep"):
                     time.sleep(1)
                     calculate_bmi(use_profile=False)
-                if use in ("n", "no", "nope"):
+                elif use in ("n", "no", "nope"):
                     console.print("[#8a9248]Alright! Cancelled BMI calculation.[/]")
                     time.sleep(1)
                 else:
